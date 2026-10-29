@@ -1,0 +1,200 @@
+{
+  "model_type": "RandomForestClassifier",
+  "training_timestamp": "2026-10-29T18:31:35.921401",
+  "total_samples": 1800,
+  "train_samples": 1440,
+  "test_samples": 360,
+  "accuracy": 0.9861111111111112,
+  "classes": [
+    "HELLO",
+    "HELP",
+    "LOVE",
+    "NO",
+    "PEACE",
+    "PLEASE",
+    "STOP",
+    "THANK YOU",
+    "YES"
+  ],
+  "class_distribution": {
+    "YES": 200,
+    "NO": 200,
+    "STOP": 200,
+    "HELP": 200,
+    "PLEASE": 200,
+    "THANK YOU": 200,
+    "HELLO": 200,
+    "LOVE": 200,
+    "PEACE": 200
+  },
+  "confusion_matrix": [
+    [
+      40,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      40,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      40,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      40,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      40,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      40,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      39,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      36,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      40
+    ]
+  ],
+  "classification_report": {
+    "HELLO": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "HELP": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "LOVE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "NO": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "PEACE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "PLEASE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "STOP": {
+      "precision": 0.9069767441860465,
+      "recall": 0.975,
+      "f1-score": 0.9397590361445783,
+      "support": 40.0
+    },
+    "THANK YOU": {
+      "precision": 0.972972972972973,
+      "recall": 0.9,
+      "f1-score": 0.935064935064935,
+      "support": 40.0
+    },
+    "YES": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "accuracy": 0.9861111111111112,
+    "macro avg": {
+      "precision": 0.9866610796843356,
+      "recall": 0.9861111111111112,
+      "f1-score": 0.9860915523566126,
+      "support": 360.0
+    },
+    "weighted avg": {
+      "precision": 0.9866610796843355,
+      "recall": 0.9861111111111112,
+      "f1-score": 0.9860915523566127,
+      "support": 360.0
+    }
+  }
+}
